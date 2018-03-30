@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:background="@color/splashBackground"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/toolbar_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/toolbar_image_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="0"
+            android:src="@mipmap/science_white" />
+
+        <LinearLayout
+            android:layout_width="@dimen/toolbar_counter_width"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtCurrentQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/counter_first"
+                android:textSize="@dimen/toolbar_counter_textSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/counter_total"
+                android:textSize="@dimen/toolbar_counter_textSize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/margin_indicator_end"
+            android:layout_weight="9"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/ind_1"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_2"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_3"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_4"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_5"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_6"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_7"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_8"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_9"
+                style="@style/Indicator" />
+
+            <View
+                android:id="@+id/ind_10"
+                style="@style/Indicator" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</Toolbar>

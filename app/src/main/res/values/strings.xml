@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="counter_first">1</string>
+    <string name="counter_total">/10</string>
+    <string name="introduction">Introduction</string>
+    <string name="introduction_text">Welcome to the quiz application about technologies! \n\n
+        There are 10 questions about new trends in technologies. So good luck, be smart, be on trend!</string>
+    <string name="igotit">I got it!</string>
+
+    <string name="question1">It is a field of computer science that gives computer systems the ability to progressively improve performance on a specific task with data, without being explicitly programmed.</string>
+    <string name="question2">Basically it is an oriented graph, each subsequent block in which includes hash information the hash value from the previous block.</string>
+    <string name="question3">Major goals of this technology are Knowledge reasoning, Planning, Machine learning, Natural language processing, Computer vision, Robotics.</string>
+    <string name="question4">This technology is used to enhance the natural environments or situations and offer perceptually enriched experiences. With the help of advanced  technologies (e.g. adding computer vision and object recognition) the information about the surrounding real world of the user becomes interactive and digitally manipulable.</string>
+    <string name="question5">It is a computer-generated scenario that simulates a realistic experience.</string>
+    <string name="question6">Big data can be described by the following characteristics:  Volume,  Variety,  Velocity and &#8230; \n\n (Choose 2 variants)</string>
+    <string name="question7">It is the network of physical devices, vehicles, home appliances and other items embedded with electronics, software, sensors, actuators, and connectivity which enables these objects to connect and exchange data.</string>
+
+    <string name="question8">The year of the discovery of 3D printing technology.</string>
+
+    <string name="question9">&#8230;The approach, known as a generative adversarial network, or GAN, takes two neural networks-the simplified mathematical models of the human brain that underpin most modern machine-learning and pits them against each other in a digital cat-and-mouse game&#8230;
+\n\n
+It is a part of description&#8230;</string>
+    <string name="question10">Write the full name of technology IIoT.</string>
+
+    <string name="answer1">Artificial Intelligence</string>
+    <string name="answer2">Data Mining</string>
+    <string name="answer3">Machine Learning</string>
+    <string name="answer4">Cluster analysis</string>
+    <string name="answer5">Blockchain</string>
+    <string name="answer6">Cryptography</string>
+    <string name="answer7">Big Data</string>
+    <string name="answer8">Natural intelligence</string>
+    <string name="answer9">Dueling Neural Networks</string>
+    <string name="answer10">Virtual Reality</string>
+    <string name="answer11">Augmented Reality</string>
+    <string name="answer12">Internet Of Things</string>
+    <string name="answer13">Veracity</string>
+    <string name="answer14">Vision</string>
+    <string name="answer15">Vote</string>
+    <string name="answer16">Variability</string>
+    <string name="answer17">2011</string>
+    <string name="answer18">1971</string>
+    <string name="answer19">1981</string>
+    <string name="answer20">2008</string>
+    <string name="answer21">industrialinternetofthings</string>
+
+    <string name="txt_here">Type this here</string>
+    <string name="nxt_q">Next question</string>
+
+    <string name="result1part">Congratulations!\n\n You have finished this test. Your result is: </string>
+    <string name="result2part1">You know a lot about new technologies! Excellent result!</string>
+    <string name="result2part2">You have a good knowledge of new technologies. Good result!</string>
+    <string name="result2part3">You should read about new technologies! Try again to improve the result!</string>
+    <string name="finish">You have finished the test!</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashBackground"
+    android:orientation="vertical"
+    tools:context=".IntroductionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/introduction_margin"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/introduction"
+        android:textAllCaps="true"
+        android:textSize="@dimen/introduction_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/intr_text_margin_bottom"
+        android:layout_marginEnd="@dimen/intr_text_margin_horiz"
+        android:layout_marginStart="@dimen/intr_text_margin_horiz"
+        android:layout_weight="100"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:translationZ="@dimen/flat_dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/science_white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/intr_text_padding"
+            android:text="@string/introduction_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/intr_textSize" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/intr_text_margin_bottom"
+        android:layout_weight="1"
+        android:background="@color/green_button"
+        android:gravity="center"
+        android:onClick="startMain"
+        android:text="@string/igotit" />
+</LinearLayout>

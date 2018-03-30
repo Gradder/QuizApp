@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:icon">@drawable/splash_screen</item>
+        <item name="searchViewStyle">@style/AppSearchViewStyle</item>
+    </style>
+    <style name="AppSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@drawable/splash_screen</item>
+        <item name="android:imeActionId">6</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+</style>
+    <style name="IntroductionTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="Indicator">
+        <item name="android:layout_margin">@dimen/margin_indicator</item>
+        <item name="android:layout_weight">@dimen/weight_indicator</item>
+        <item name="android:background">@color/light_blue</item>
+        <item name="android:layout_height">@dimen/layout_height_indicator</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/splashBackground</item>
+        <item name="colorControlActivated">@color/green_button</item>
+    </style>
+    <style name="RadioButton" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/splashBackground</item>
+        <item name="colorControlActivated">@color/green_button</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

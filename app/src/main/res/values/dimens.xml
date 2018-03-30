@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_indicator">2dp</dimen>
+    <dimen name="weight_indicator">1</dimen>
+    <dimen name="layout_height_indicator">5dp</dimen>
+    <dimen name="margin_indicator_end">10dp</dimen>
+    <dimen name="toolbar_margin">3dp</dimen>
+    <dimen name="toolbar_image_width">50dp</dimen>
+    <dimen name="toolbar_counter_width">100dp</dimen>
+    <dimen name="toolbar_counter_textSize">18sp</dimen>
+    <dimen name="introduction_size">32sp</dimen>
+    <dimen name="introduction_margin">20dp</dimen>
+    <dimen name="flat_dp">7dp</dimen>
+    <dimen name="intr_text_margin_horiz">50dp</dimen>
+    <dimen name="intr_text_margin_bottom">30dp</dimen>
+    <dimen name="intr_text_padding">20dp</dimen>
+    <dimen name="intr_textSize">14sp</dimen>
+    <dimen name="question_layout_margin">20dp</dimen>
+
+    <dimen name="img_width">150dp</dimen>
+    <dimen name="img_height">150dp</dimen>
+    <dimen name="img_margin">10dp</dimen>
+
+    <dimen name="img_width_h">100dp</dimen>
+    <dimen name="img_height_h">100dp</dimen>
+
+    <dimen name="text_padding">10dp</dimen>
+
+    <dimen name="frame_margin">20dp</dimen>
+    <dimen name="final_text_size">24sp</dimen>
+    <dimen name="etext_height">100dp</dimen>
+    <dimen name="btn_padding">5dp</dimen>
+    <dimen name="radius">10dp</dimen>
+
+
+</resources>
