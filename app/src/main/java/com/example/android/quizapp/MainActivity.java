@@ -27,10 +27,10 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    int numOfCompletedAnswers = 1;
-    int numOfRightAnswers = 0;
-    int current_question = 0;
-    int checked_radiobutton = 4;
+    private int numOfCompletedAnswers = 1;
+    private int numOfRightAnswers;
+    private int current_question;
+    private int checked_radiobutton = 4;
     TextView currentQuestion;
     TextView textQuestion;
     View ind;
@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity {
     CheckBox cb3;
     CheckBox cb4;
     ImageView image;
-    HashMap<Integer, String> questions = new HashMap<>();
-    HashMap<Integer, Integer> correctAnswers = new HashMap<>();
-    ArrayList<Boolean> finalResults = new ArrayList<>(); //True - correct, false - not
-    ArrayList<Integer> listOfNumsOfQusetions = new ArrayList<>();
+    private  HashMap<Integer, String> questions = new HashMap<>();
+    private  HashMap<Integer, Integer> correctAnswers = new HashMap<>();
+    private  ArrayList<Boolean> finalResults = new ArrayList<>(); //True - correct, false - not
+    private ArrayList<Integer> listOfNumsOfQusetions = new ArrayList<>();
     RadioGroup radioGroup;
-    int[] indicators = new int[]{R.id.ind_1, R.id.ind_2, R.id.ind_3, R.id.ind_4, R.id.ind_5, R.id.ind_6, R.id.ind_7, R.id.ind_8, R.id.ind_9, R.id.ind_10};
+    private int[] indicators = new int[]{R.id.ind_1, R.id.ind_2, R.id.ind_3, R.id.ind_4, R.id.ind_5, R.id.ind_6, R.id.ind_7, R.id.ind_8, R.id.ind_9, R.id.ind_10};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -321,6 +321,8 @@ public class MainActivity extends AppCompatActivity {
             }
             hidden.setText(resultText);
         }
+        Toast.makeText(getApplicationContext(), "Your result is "+numOfRightAnswers+"/10",
+                Toast.LENGTH_SHORT).show();
     }
 
     public void checkAnswer() {
@@ -340,7 +342,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
             case 5:
-                if (cb1.isChecked() && cb4.isChecked()) {
+                if (cb1.isChecked() && cb4.isChecked()&&!cb2.isChecked()&&!cb3.isChecked()) {
                     finalResults.add(true);
                     numOfRightAnswers++;
                     checked_radiobutton = 0;
